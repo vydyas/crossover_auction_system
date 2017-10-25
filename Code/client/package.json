@@ -2,7 +2,7 @@
   "author": "Gustavo Mazzoni",
   "name": "auction-game",
   "version": "0.0.1",
-  "homepage": "https://github.com/gustavomazzoni",
+  "homepage": "https://github.com/vydyas",
   "scripts": {
     "postinstall": "bower install",
     "prestart": "npm install",
@@ -12,6 +12,9 @@
     "socket.io": "^1.4.8"
   },
   "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "angular-ui-router": "^0.4.3",
     "grunt": "~0.4.1",
     "grunt-bump": "0.0.6",
     "grunt-contrib-clean": "^0.4.1",
@@ -26,9 +29,11 @@
     "grunt-karma": "^0.8.2",
     "grunt-ng-annotate": "^0.8.0",
     "http-server": "^0.9.0",
-    "karma": "^0.12.9",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^0.12.37",
     "karma-chrome-launcher": "^1.0.1",
-    "karma-jasmine": "^0.1.5",
+    "karma-jasmine": "^0.1.6",
     "karma-jasmine-matchers": "^2.0.2"
   }
 }

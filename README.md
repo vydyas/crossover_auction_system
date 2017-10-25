@@ -46,17 +46,10 @@ A single-page application was built using [AngularJS](https://angularjs.org/), f
 
 
 ## Running the app
-### Download the project
-Download or clone the project using following command:
-```sh
-$ git clone https://github.com/gustavomazzoni/auction-system
-```
 ### Install
 Install MySQL server locally, then run the scripts to setup:
 ```sh
-$ cd server/ && ./db-create.sh
-$ ./db-init.sh
-$ ./db-setup.sh
+$ cd Code/server/ 
 ```
 Install project dependencies
 ```sh
